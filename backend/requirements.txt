@@ -1,0 +1,9 @@
+langchain
+lancedb
+llama-parse
+llama-index
+predictionguard
+sentence-transformers
+momento
+flask
+flask-cors
