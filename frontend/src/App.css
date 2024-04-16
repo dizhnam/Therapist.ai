@@ -1,0 +1,260 @@
+body{
+	background-color: #fff;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #eee; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #651FFF;
+
+}
+
+.main{
+	background-color: #eee;
+	width: 320px;
+	position: relative;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 6px 0px 0px 0px;
+}
+.scroll{
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+	    height: 325px;
+}
+.img1{
+	border-radius: 50%;
+	background-color: #66BB6A;
+}
+.name{
+	font-size: 8px;
+
+}
+.msg{
+	background-color: #fff;
+	font-size: 11px;
+	padding: 5px;
+	border-radius: 5px;
+	font-weight: 500;
+	color: #3e3c3c;
+}
+.between{
+	font-size: 8px;
+	font-weight: 500;
+	color: #a09e9e;
+}
+.navbar{
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.form-control{
+	font-size: 12px;
+	font-weight: 400;
+	width: 230px;
+	height: 30px;
+	border: none;
+
+}
+.form-control:focus {
+  box-shadow: none;
+  overflow: hidden;
+  border: none;
+}
+
+.form-control:focus{
+	box-shadow: none !important;
+}
+.icon1{
+	color: #7C4DFF !important;
+	font-size: 18px !important;	
+	cursor: pointer;
+}
+
+.icon2{
+	color: #512DA8 !important;
+    font-size: 18px !important;
+    position: relative;
+    left: 8px;
+    padding: 0px;
+    cursor: pointer;
+
+}
+
+
+.icondiv{
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	padding: 2px;
+	position: relative;
+	bottom: 1px;
+
+}
+
+.home-style {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	transition: opacity 0.5s ease;
+}
+
+.home-header {
+	width: 100%;
+	height: 20%;
+	background-color: #666;
+	padding: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 0;
+	color: #fff;
+}
+
+.header-text {
+	font-size: 35px;
+	display: inline;
+	float: left;
+	margin-top: 40px;
+}
+
+.header-upload {
+	display: inline;
+	float: right;
+	font-size: 8px;
+	margin-right: 5%;
+	cursor: pointer;
+}
+
+.header-upload > div {
+	border: 5px solid #ccc;
+	border-radius: 50%;
+	width: 115px;
+	height: 115px;
+	padding: 20px;
+	margin-left: 10%;
+	cursor: pointer;
+}
+
+.header-upload > p {
+	font-size: 10px;
+}
+
+.home-content {
+	width: 100%;
+	height: 80%;
+	background: rgba(255, 255, 255, 0.8);
+	display: flex;
+	flex-direction: row; 
+}
+
+form {
+	display: inline !important;
+}
+
+.home-content-left {
+	width: 60%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.5);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: left;
+	margin: 30px;
+	margin-left: 50px;
+	text-align: justify;
+}
+
+.home-content-left > p {
+	color: #777;
+	font-size: 16px;
+}
+
+.home-content-right {
+	width: 40%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.5);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: left;
+}
+
+.empty-chat {
+	text-align: center;
+	margin-top: 60%;
+	color: #aaa;
+	font-size: 20px;
+}
+
+.home-content-right p {
+	font-size: 12px;	
+}
+
+.home-content-right span {
+	font-size: 10px;	
+}
+
+.home-content-right-content {
+	border-radius: 5px;
+	width: 80%;
+	margin: 5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home-content-right-content > div:first-child {
+	height: 600px;
+}
+
+.home-content-right-content > div:first-child> div:first-child {
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+	padding-top: 30px !important;
+}
+
+.chat-input-doctor {
+	width: 100%;
+	padding: 30px;
+}
+
+.suggested-reply {
+	background-color: #99e699;
+	color: #fff;
+	padding: 5px;
+	width: 90%;
+	border-radius: 5px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: none;
+	font-size: 14px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
