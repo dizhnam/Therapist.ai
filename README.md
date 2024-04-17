@@ -2,7 +2,7 @@
 
 # Therapist.ai
 
-## Introduction
+## Introduction To Therapist.ai
 
 Welcome to Therapist.ai, a revolutionary platform designed to transform the counseling and therapy landscape. Our goal is to enhance the efficiency and effectiveness of counseling sessions by providing counselors and therapists with powerful AI-driven tools. With Therapist.ai, professionals can streamline their workflows, gain valuable insights from patient interactions, and ultimately deliver personalized care to their clients.
 
@@ -44,9 +44,6 @@ Moving forward, we envision a comprehensive evolution of Therapist.ai aimed at e
 
 Furthermore, we're exploring innovative solutions such as blockchain technology to securely store patient case files. This ensures seamless transitions between therapists or counselors without any loss of crucial information. By implementing blockchain, we guarantee the integrity and accessibility of patient records, fostering continuity of care and empowering individuals to receive the support they need, wherever they may be.
 
-## Demo
-
-To see Therapist.ai in action, check out our demo [here](https://youtu.be/1KA1iihK3-4?si=R3pFc6LXDz4OApKn).
 
 ## Contributors
 
